@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex {
+  display: flex;
+}
+
+.top {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-menu-div {
+padding: 0 10px;
+}
+
+ hr {
+    color: rgb(255, 224, 224);
+}
+
+.search-menu-div div {
+  padding: 5px 10px;
+  height: 100%;
+  
+}
+
+.search {
+    margin-right: 10px;
+}
+.top-cta{
+    background-color: yellow;
+    font-size: .85rem;
+    text-align: center;
+    padding: 8px;
+}
+
+.nav-logo{
+    background-color: #000;
+    width: 6rem;
+    
+    }
+.nav-logo img {
+    padding: 5px; 
+}
+
+.blackback {
+    display: none
+}
+
+.search-menu-bg {
+    display: none;
+}
+
+.highlights {
+    width: 95%;
+    margin: auto;
+}
+
+.highlights div{
+    border : 1px solid black;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+/*  */
+@media screen and (min-width: 770px) {
+    body {
+      background-color: lightgreen;
+    }
+
+    .top {
+    flex-direction: column;
+    }
+
+    .nav-logo, .search-menu-div{
+        display: none;
+    }
+
+    .search-menu-bg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        width: 100%;
+        height: 35px;
+    }
+
+    .scndlinks{
+        width: 40%;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    .blackback {
+        display: flex;
+        justify-content: space-between;
+        background-color: #000;
+        width: 100%;
+        color: #fff;
+    }
+
+    .blackback li {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .top-cta {
+        text-align: left;
+    }
+
+    .highlights {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;
+        border: 1px solid black;
+        height: 95vh;
+        margin-top: 10px;
+        width: 96vw;
+    }
+
+    .highlights div {
+        height : auto;
+        margin: 0;
+        text-align: center;
+    }
+
+    .one {
+        grid-column: 1/3;
+        grid-row: 1/3;
+     
+    }
+
+  }
+
+
+  @media screen and (min-width: 1100px) {
+    body {
+      background-color: red;
+    }
+
+    .nav-logo {
+        display: none;
+    }
+  }
