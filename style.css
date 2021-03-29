@@ -76,7 +76,6 @@ hr {
   align-items: center;
   margin: auto;
   color: white;
-  
 }
 
 .footer-links {
@@ -99,28 +98,27 @@ hr {
   font-size: 20px;
 }
 
-.social-icon:hover{
-    background-color: rgb(24, 23, 23);
-    cursor: pointer;
+.social-icon:hover {
+  background-color: rgb(24, 23, 23);
+  cursor: pointer;
 }
-
 
 .footer-bottom {
   background-color: black;
   height: 130px;
-  color:white;
+  color: white;
   justify-content: center;
   align-items: center;
 }
 
-.footer-bottom-text{
-    text-align: center;
-    width:50%;
+.footer-bottom-text {
+  text-align: center;
+  width: 50%;
 }
 
-.footer-img img{
-    width: 50px;
-    height: auto;
+.footer-img img {
+  width: 50px;
+  height: auto;
 }
 
 /*  */
