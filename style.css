@@ -66,8 +66,7 @@ hr {
 }
 
 .highlight-one {
-  background: 
-  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
