@@ -241,7 +241,7 @@ p.sm-text {
     justify-content: space-between;
     background-color: #000;
     width: 100%;
-    color: #fff;
+    color: rgb(163, 154, 154);
   }
 
   .blackback li {
