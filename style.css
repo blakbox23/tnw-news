@@ -128,7 +128,7 @@ hr {
 }
 
 .latest-funding-item {
-  background-color: lawngreen;
+  border: 1px solid grey;
 }
 
 .latest-funding-top {
@@ -181,7 +181,6 @@ hr {
 
 .funding-card-body {
   width: inherit;
-  border: 1px solid black;
   margin: -55px auto 20px;
   height: 150px;
   background-color: rgb(226, 202, 202);
@@ -198,6 +197,10 @@ hr {
 p.sm-text {
   margin-top: 5px;
   padding-bottom: 50px;
+}
+
+.hide-funding {
+  display: none;
 }
 
 /*  */
@@ -226,10 +229,11 @@ p.sm-text {
   }
 
   .scndlinks {
-    width: 40%;
+    width: 70%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     list-style: none;
+    font-size: .9rem;
   }
 
   .blackback {
@@ -276,6 +280,18 @@ p.sm-text {
     grid-template-columns: 1fr 1fr 1fr;
     gap : 10px;
   }
+
+  .latest-funding-nav {
+    flex-direction: row;
+  }
+
+  .latest-funding-nav li {
+    padding: 5px 10px;
+
+  }
+  .hide-funding {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -292,4 +308,18 @@ p.sm-text {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap : 10px;
   }
+
+  .latest-funding-top {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .hide-funding {
+    display: inline-block;
+  }
+
+  .scndlinks {
+    width: 50%;
+  }
+  
 }
