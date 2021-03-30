@@ -11,6 +11,11 @@
   align-items: center;
 }
 
+a{
+  text-decoration: none;
+  color:black;
+}
+
 .search-menu-div {
   padding: 0 10px;
 }
@@ -37,6 +42,7 @@ hr {
 .nav-logo {
   background-color: #000;
   width: 6rem;
+  padding:5px 10px;
 }
 .nav-logo img {
   padding: 5px;
@@ -80,7 +86,6 @@ hr {
   margin-bottom: 10px;
 }
 .highlight-top {
-  border: 1px solid red; 
   height: 45%;
   font-size:20px;
   width:inherit;
@@ -91,23 +96,23 @@ hr {
   
 }
 .highlight-center{
-  border: 1px solid black; 
   height: 35%;
   width:inherit;
   padding-left: 10px;
-  
 }
 .highlight-center p{
 
   font-size:20px;
 }
-.highlight-bottom{
-  border: 1px solid black; 
+.highlight-bottom{ 
   height: 20%;
   width:inherit;
   padding-left: 10px;
 }
 
+footer a{
+  color:white;
+}
 .footer-top {
   background-color: rgb(24, 23, 23);
   height: 150px;
@@ -127,7 +132,7 @@ hr {
 .footer-links {
   align-items: center;
   color: white;
-  width: 50%;
+  width: 90%;
   margin: auto;
   justify-content: space-evenly;
   list-style: none;
@@ -169,16 +174,16 @@ hr {
 
 .latest-funding {
   width: 96vw;
-  border: 1px solid black;
   margin: auto;
-}
+  margin-top:50px;
 
-.latest-funding-item {
-  border: 1px solid grey;
 }
 
 .latest-funding-top {
   flex-direction: column;
+  color:#f42;
+  padding-left:10px;
+  padding-bottom: 30px;
 }
 
 .latest-funding-nav {
@@ -194,7 +199,7 @@ hr {
   width: inherit;
   margin: auto;
   height: 50px;
-  background-color: rgb(248, 93, 93);
+  background-color: #f42;
   align-items: center;
   padding-left: 80px;
   color: #fff;
@@ -204,7 +209,7 @@ hr {
   width: inherit;
   height: 50px;
   padding-left: 80px;
-  background-color: grey;
+  background-color: rgba(255,68,34,.08);
   justify-content: center;
   flex-direction: column;
 
@@ -229,8 +234,8 @@ hr {
   width: inherit;
   margin: -55px auto 20px;
   height: 150px;
-  background-color: rgb(226, 202, 202);
   padding-left: 20px;
+  color:#555;
 }
 
 .funding-card-body-top {
@@ -251,9 +256,6 @@ p.sm-text {
 
 /*  */
 @media screen and (min-width: 770px) {
-  body {
-    background-color: lightgreen;
-  }
 
   .top {
     flex-direction: column;
@@ -304,7 +306,6 @@ p.sm-text {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 10px;
-    border: 1px solid black;
     height: 95vh;
     margin-top: 10px;
     width: 96vw;
@@ -361,9 +362,7 @@ p.sm-text {
 }
 
 @media screen and (min-width: 1025px) {
-  body {
-    background-color: green;
-  }
+
 
   .nav-logo {
     display: none;
