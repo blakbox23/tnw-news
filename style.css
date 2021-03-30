@@ -53,13 +53,59 @@ hr {
 .highlights {
   width: 95%;
   margin: auto;
+  color:white;
 }
 
-.highlights div {
-  border: 1px solid black;
-  width: 100%;
-  height: 100px;
-  margin-top: 10px;
+.highlight-one{
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");  ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.highlight-two{
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.highlight-three{
+  background-image: url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-26T112752.972-796x417.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.highlight-top {
+  border: 1px solid red; 
+  height: 45%;
+  font-size:20px;
+  width:inherit;
+  padding-left: 10px;
+}
+.highlight-top img{
+  display: none;
+  
+}
+.highlight-center{
+  border: 1px solid black; 
+  height: 35%;
+  width:inherit;
+  padding-left: 10px;
+  
+}
+.highlight-center p{
+
+  font-size:20px;
+}
+.highlight-bottom{
+  border: 1px solid black; 
+  height: 20%;
+  width:inherit;
+  padding-left: 10px;
 }
 
 .footer-top {
@@ -264,17 +310,34 @@ p.sm-text {
     width: 96vw;
   }
 
-  .highlights div {
+  .highlights > div {
     height: auto;
     margin: 0;
-    text-align: center;
+    text-align: left;
   }
 
-  .one {
+
+  .highlight-one {
     grid-column: 1/3;
     grid-row: 1/3;
   }
 
+  .highlight-one .highlight-center p{
+    font-size:40px;
+  }
+  .highlight-one .highlight-bottom p{
+    font-size:20px;
+    padding-top:20px;
+  }
+  .highlight-two .highlight-center p, .highlight-three .highlight-center p{
+    font-size:18px;
+  }
+  .highlight-two .highlight-bottom p, .highlight-three .highlight-bottom p{
+    font-size:12px;
+    padding-top:5px;
+  }
+
+  
   .funding-container-items{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -291,6 +354,9 @@ p.sm-text {
   }
   .hide-funding {
     display: none;
+  }
+  .footer-icons {
+    width: 40%;
   }
 }
 
@@ -320,6 +386,20 @@ p.sm-text {
 
   .scndlinks {
     width: 50%;
+  }
+  .highlight-top img{
+    display: inline-block;
+    width:50%;
+    margin-top:20px;
+  }
+  .highlight-one .highlight-center{
+    padding-top:100px;
+  }
+  .footer-icons {
+    width: 30%;
+  }
+  .footer-links{
+    width:30%;
   }
   
 }
