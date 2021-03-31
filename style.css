@@ -146,6 +146,10 @@ footer a {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.highlight-bottom p {
+  color: grey;
+}
+
 .footer-top {
   background-color: rgb(24, 23, 23);
   height: 150px;
