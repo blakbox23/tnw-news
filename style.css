@@ -163,7 +163,7 @@ footer a {
 }
 
 .latest-news-sm {
-  font-size: 0.80rem;
+  font-size: 0.8rem;
   color: grey;
 }
 
@@ -294,7 +294,7 @@ footer a {
 
 .sm-text {
   font-size: 0.8rem;
-  color:rgb(163, 154, 154);
+  color: rgb(163, 154, 154);
 }
 
 .card-top-image {
@@ -497,7 +497,7 @@ p.sm-text {
   }
 
   .highlight-two h1,
-  .highlight-three h1{
+  .highlight-three h1 {
     font-size: 1.6rem;
     width: 90%;
   }
