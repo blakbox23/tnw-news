@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family:"ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
 
 .flex {
@@ -380,8 +381,12 @@ p.sm-text {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 150px;
+    height: auto;
     margin-bottom: 10px;
+  }
+  .highlight-tow, .highlight-three {
+    height:auto;
+    
   }
 
   .funding-container-items {
@@ -403,12 +408,18 @@ p.sm-text {
   .scndlinks {
     width: 50%;
   }
-
+  .highlight-one .highlight-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
   .highlight-top img {
     display: inline-block;
     width: 50%;
-    margin-top: 20px;
   }
+
 
   .highlight-one .highlight-center {
     padding-top: 100px;
