@@ -39,7 +39,8 @@ hr {
   background-color: yellow;
   font-size       : 0.85rem;
   text-align      : center;
-  padding         : 8px;
+  padding         : 20px 8px;
+
 }
 
 .nav-logo {
@@ -212,6 +213,14 @@ footer a {
   padding-bottom: 30px;
 }
 
+.hide-in-phone {
+  display: none;
+}
+
+.latest-funding-top a {
+  color: #f42;
+}
+
 .latest-funding-nav {
   flex-direction: column;
 }
@@ -319,8 +328,13 @@ p.sm-text {
     margin : 5px;
   }
 
+  .blackback li a {
+    color: white;
+  }
+
   .top-cta {
     text-align: left;
+    padding   : 8px;
   }
 
   .highlights {
@@ -378,7 +392,11 @@ p.sm-text {
     flex-direction: row;
   }
 
-  .latest-funding-nav li {
+  .hide-in-phone {
+    display: inline;
+  }
+
+  .latest-funding-nav a {
     padding: 5px 10px;
   }
 
@@ -449,7 +467,6 @@ p.sm-text {
     width  : 50%;
   }
 
-
   .highlight-one .highlight-center {
     padding-top: 50px;
 
@@ -458,7 +475,6 @@ p.sm-text {
   .highlight-one .highlight-center h1 {
     font-size: 56px;
   }
-
 
   .footer-icons {
     width: 30%;
