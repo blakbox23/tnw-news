@@ -118,6 +118,10 @@ footer a {
   padding-left: 10px;
 }
 
+.highlight-bottom p {
+  color: grey;
+}
+
 .highlight-center p {
   font-size: 20px;
 }
@@ -144,10 +148,6 @@ footer a {
   align-items: center;
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.highlight-bottom p {
-  color: grey;
 }
 
 .footer-top {
