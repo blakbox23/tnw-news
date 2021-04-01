@@ -81,13 +81,7 @@ footer a {
 }
 
 .highlight-one {
-  background:
-      linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0),
-      rgba(0, 0, 0, 1)
-    ),
-    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+  background: linear-gradient(to bottom,rgba(245, 246, 252, 0),rgba(0, 0, 0, 1)),url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -112,7 +106,8 @@ footer a {
 }
 
 .highlight-three {
-  background: linear-gradient(
+  background:
+      linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0),
       rgba(0, 0, 0, 1)
@@ -272,7 +267,8 @@ footer a {
 }
 
 .cat-one {
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)),
+  background:
+    linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)),
     url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
   height: 20rem;
   background-repeat: no-repeat;
@@ -283,7 +279,8 @@ footer a {
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)),
+  background:
+    linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)),
     url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
 }
 
