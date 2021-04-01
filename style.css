@@ -81,7 +81,12 @@ footer a {
 }
 
 .highlight-one {
-  background: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+  background: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -91,7 +96,12 @@ footer a {
 }
 
 .highlight-two {
-  background: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
+  background: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Gemini2-duplicates-monitor-alert-e1611566958933-796x420.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -101,7 +111,12 @@ footer a {
 }
 
 .highlight-three {
-  background: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-26T112752.972-796x417.png");
+  background: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Untitled-design-2021-01-26T112752.972-796x417.png");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -233,7 +248,7 @@ footer a {
 /* CATEGORIES SECTION */
 
 .categories {
-  width: 96%; 
+  width: 96%;
   margin: 3rem auto;
 }
 
@@ -242,7 +257,7 @@ footer a {
 }
 
 .categories-item-title a {
-  color:#f42;
+  color: #f42;
 }
 
 .categories-item-title :hover {
@@ -256,7 +271,8 @@ footer a {
 }
 
 .cat-one {
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");  
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -266,21 +282,24 @@ footer a {
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
 }
 
 .cat-three {
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
 }
 
 .cat-four {
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)),
+    url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
 }
 
 .categories-image-text {
@@ -624,14 +643,15 @@ p.sm-text {
 
   /* LATEST NEWS SECTION */
 
-  .latest-news-container, 
+  .latest-news-container,
   .latest-deals-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
 
-  .latest-news-item, .latest-deals-item {
+  .latest-news-item,
+  .latest-deals-item {
     flex-direction: column;
   }
 
@@ -663,7 +683,7 @@ p.sm-text {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-}
+  }
 
   .funding-container-items {
     display: grid;
@@ -698,7 +718,12 @@ p.sm-text {
   }
 
   .highlight-one {
-    background: linear-gradient(to bottom, rgba(177, 64, 64, 0.7), rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
+    background: linear-gradient(
+        to bottom,
+        rgba(177, 64, 64, 0.7),
+        rgba(0, 0, 0, 1)
+      ),
+      url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Opal-796x417.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -713,7 +738,7 @@ p.sm-text {
     width: 90%;
   }
 
-  .latest-news-container, 
+  .latest-news-container,
   .latest-deals-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
