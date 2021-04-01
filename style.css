@@ -155,16 +155,18 @@ footer a {
 .latest-news {
   width: 96%;
   margin: auto;
-  border: 1px solid black;
 }
 
 .latest-news-item {
-  border: 1px solid black;
+  align-items: flex-start;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
 }
 
 .latest-news-sm {
   font-size: 0.8rem;
   color: grey;
+  margin: 5px 0;
 }
 
 .latest-news-title {
@@ -172,17 +174,23 @@ footer a {
 }
 
 .latest-news-image {
-  width: 100px;
+  width: 80px;
 }
 
 .latest-news-image img {
   width: inherit;
+  height: 80px;
+
 }
 
 .latest-news-text {
   margin: 8px;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.latest-news-bg-text {
+  font-weight: bold;
 }
 
 .footer-top {
@@ -454,6 +462,10 @@ p.sm-text {
     width: 100%;
   }
 
+  .latest-news-image img {
+    height: 120px;
+  }
+
   .funding-container-items {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -505,7 +517,7 @@ p.sm-text {
   .latest-news-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 23px;
   }
 
   .funding-container-items {
@@ -553,6 +565,13 @@ p.sm-text {
     font-size: 56px;
     line-height: 1.1;
     word-spacing: -5px;
+  }
+
+  .latest-news-item {
+    font-size: 1rem;
+  }
+  .latest-news-image img {
+    height: 150px;
   }
 
   .footer-icons {
