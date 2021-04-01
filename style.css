@@ -203,10 +203,9 @@ footer a {
   justify-content: space-between;
   padding: 12px 5px;
   color: #f42;
-
 }
 
-.latest-deals-title a{
+.latest-deals-title a {
   color: #f42;
 }
 
@@ -240,9 +239,9 @@ footer a {
 
 .categories-item-title {
   margin: 10px 0 5px;
-
 }
-.categories-item-title a{
+
+.categories-item-title a {
   color:#f42;
 }
 
@@ -267,21 +266,21 @@ footer a {
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");  
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
 }
 
 .cat-three {
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg"); 
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
 }
 
 .cat-four {
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");  
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
 }
 
 .categories-image-text {
@@ -310,7 +309,7 @@ footer a {
   height: 6rem;
   margin-top: 4px;
   justify-content: space-between;
-  background-color: rgba(255,68,34,.06);
+  background-color: rgba(255, 68, 34, 0.06);
 }
 
 .categories-latest-section-image {
@@ -343,7 +342,7 @@ footer a {
 }
 
 .category-list-items {
-  padding:0 0 5px 20px;
+  padding: 0 0 5px 20px;
 }
 
 .category-list-items li {
@@ -357,8 +356,8 @@ footer a {
 .category-list-items li:hover {
   color: #000;
 }
-/* END OF CATEGORIES SECTION */
 
+/* END OF CATEGORIES SECTION */
 
 .footer-top {
   background-color: rgb(24, 23, 23);
@@ -497,8 +496,8 @@ footer a {
   height: 70%;
 }
 
-.funding-card-body-top a{
-  color:rgb(110, 108, 108)
+.funding-card-body-top a {
+  color: rgb(110, 108, 108);
 }
 
 p.sm-text {
@@ -624,7 +623,9 @@ p.sm-text {
   }
 
   /* LATEST NEWS SECTION */
-  .latest-news-container, .latest-deals-container {
+
+  .latest-news-container, 
+  .latest-deals-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -658,10 +659,10 @@ p.sm-text {
 
   /* TABLET END OF LATEST DEALS SECTION */
 
-.categories-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
+  .categories-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
 
   .funding-container-items {
@@ -712,7 +713,8 @@ p.sm-text {
     width: 90%;
   }
 
-  .latest-news-container, .latest-deals-container {
+  .latest-news-container, 
+  .latest-deals-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 23px;
