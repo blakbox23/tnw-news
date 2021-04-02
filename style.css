@@ -168,7 +168,7 @@ footer a {
   margin: 5px 8px 5px 0;
 }
 
-.latest-news-title {
+.latest-news-title a {
   padding: 12px 5px;
   color: #f42;
 }
@@ -191,6 +191,10 @@ footer a {
   font-weight: bold;
 }
 
+.latest-news-text a {
+  color: #000;
+}
+
 /* LATEST DEALS */
 
 .latest-deals {
@@ -209,6 +213,10 @@ footer a {
   color: #f42;
 }
 
+.yellow-triangle {
+  display: none;
+}
+
 .latest-deals-image {
   width: 80px;
 }
@@ -224,8 +232,9 @@ footer a {
   font-size: 0.9rem;
 }
 
-.latest-deals-bg-text {
+.latest-deals-bg-text a {
   font-weight: bold;
+  color: #000;
 }
 
 /* END OF LATEST DEALS */
@@ -264,23 +273,23 @@ footer a {
 
 .cat-two {
   height: 20rem;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/Snag_3c8ecdc-368x276.png");
 }
 
 .cat-three {
   height: 20rem;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/03/MacBook-USB-C-Feat-Img-730x365.jpg");
 }
 
 .cat-four {
   height: 20rem;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-suv-new-ev-car-future-electric-japan-368x276.jpg");
 }
 
 .categories-image-text {
@@ -298,6 +307,10 @@ footer a {
   font-size: 1.2rem;
   margin: 5px 0;
   cursor: pointer;
+}
+
+.categories-mostpop-title a{
+  color: white;
 }
 
 .categories-mostpop-footer {
@@ -327,13 +340,13 @@ footer a {
   font-size: 0.9rem;
 }
 
-.categories-latest-txt1 {
+.categories-latest-txt1 a{
   color: #f42;
   font-size: 0.88rem;
   margin: 5px;
 }
 
-.categories-latest-txt2 {
+.categories-latest-txt2 a{
   color: #f42;
   font-size: 0.9rem;
   font-weight: bold;
@@ -353,7 +366,11 @@ footer a {
   cursor: pointer;
 }
 
-.category-list-items li:hover {
+.category-list-items li a {
+  color: grey;
+}
+
+.category-list-items li a:hover {
   color: #000;
 }
 
@@ -651,6 +668,28 @@ p.sm-text {
 
   .latest-deals-image {
     width: 100%;
+    position: relative;
+  }
+
+  .yellow-triangle {
+    display:block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+    background-color: yellow;
+    width: 93px;
+    height: 90px;
+}
+
+  .discount-text {
+    display: block;
+    transform: rotate(47deg);
+    position: absolute;
+    top: 20px;
+    right: 4px;
+    font-size: 0.85rem;
+    font-weight: bold;
   }
 
   .latest-deals-image img {
