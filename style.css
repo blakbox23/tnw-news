@@ -251,7 +251,7 @@ footer a {
 }
 
 .categories-item-title a {
-  color:#f42;
+  color: #f42;
 }
 
 .categories-item-title :hover {
@@ -265,7 +265,7 @@ footer a {
 }
 
 .cat-one {
-  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");  
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1)), url("https://wr.perma-archives.org/public/m5zv-q2d6/20210126152647mp_/https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/01/1280px-GameStop_Globen-e1611550531323-368x276.jpg");
   height: 20rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -309,7 +309,7 @@ footer a {
   cursor: pointer;
 }
 
-.categories-mostpop-title a{
+.categories-mostpop-title a {
   color: white;
 }
 
@@ -340,13 +340,13 @@ footer a {
   font-size: 0.9rem;
 }
 
-.categories-latest-txt1 a{
+.categories-latest-txt1 a {
   color: #f42;
   font-size: 0.88rem;
   margin: 5px;
 }
 
-.categories-latest-txt2 a{
+.categories-latest-txt2 a {
   color: #f42;
   font-size: 0.9rem;
   font-weight: bold;
@@ -364,6 +364,15 @@ footer a {
   font-size: 0.88rem;
   color: grey;
   cursor: pointer;
+}
+
+
+.latest-funding-top a {
+  color: #f42;
+}
+
+.funding-card-body-top a {
+  color: rgb(110, 108, 108);
 }
 
 .category-list-items li a {
@@ -452,10 +461,6 @@ footer a {
   display: none;
 }
 
-.latest-funding-top a {
-  color: #f42;
-}
-
 .latest-funding-nav {
   flex-direction: column;
 }
@@ -511,10 +516,6 @@ footer a {
   flex-direction: column;
   justify-content: space-evenly;
   height: 70%;
-}
-
-.funding-card-body-top a {
-  color: rgb(110, 108, 108);
 }
 
 p.sm-text {
@@ -641,14 +642,15 @@ p.sm-text {
 
   /* LATEST NEWS SECTION */
 
-  .latest-news-container, 
+  .latest-news-container,
   .latest-deals-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
 
-  .latest-news-item, .latest-deals-item {
+  .latest-news-item,
+  .latest-deals-item {
     flex-direction: column;
   }
 
@@ -672,7 +674,7 @@ p.sm-text {
   }
 
   .yellow-triangle {
-    display:block;
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
