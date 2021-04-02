@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://blakbox23.github.io/tnw-news/)
 
 ## Getting Started
 
