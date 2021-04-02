@@ -242,7 +242,7 @@ footer a {
 /* CATEGORIES SECTION */
 
 .categories {
-  width: 96%; 
+  width:96%;
   margin: 3rem auto;
 }
 
@@ -365,7 +365,6 @@ footer a {
   color: grey;
   cursor: pointer;
 }
-
 
 .latest-funding-top a {
   color: #f42;
@@ -682,7 +681,7 @@ p.sm-text {
     background-color: yellow;
     width: 93px;
     height: 90px;
-}
+  }
 
   .discount-text {
     display: block;
@@ -704,7 +703,7 @@ p.sm-text {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
-}
+  }
 
   .funding-container-items {
     display: grid;
@@ -754,7 +753,7 @@ p.sm-text {
     width: 90%;
   }
 
-  .latest-news-container, 
+  .latest-news-container,
   .latest-deals-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
