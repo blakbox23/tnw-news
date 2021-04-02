@@ -45,7 +45,7 @@ Just ensure you have one or more web browsers
 
 Contributions, issues, and feature requests are welcome!
 Feel free to contribute 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/blakbox23/tnw-news/issues/3).
 
 ## Show your support
 
