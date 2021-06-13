@@ -2,9 +2,11 @@
 
 # TNW-News
 
-> This is our second project in microverse,TNW-news  
+> In this project we worked to build a responsive web design based by cloning a page from [The Next Web](https://thenextweb.com/).
+> We were tasked to use semantic HTML, CSS, and media queries.
 
 ![screenshot](./app_screenshot.PNG)
+
 
 ## Built With
 
